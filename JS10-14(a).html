@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>JS Chapters 10-14 (a)</title>
+    </head>
+    <body>
+        <script>
+             var val1= Number(Prompt("Enter 1st number"));
+             var operator = Prompt("Enter Arthmetic operator");
+             var val2= Number(Prompt ("Enter 2nd number"));
+
+     if (operator ==="+") {
+        var sum = val1 + val2;
+        alert(val1 + "+" + val2 + " " + "=" + " " + sum);
+    }
+
+   else if  (operator === "-") {
+       var sub = val1 - val2;
+        alert(val1 + "-" + val2 + " " + "=" + " " + sub);
+    }
+    else if  (operator === "*") {
+       var mul = val1 * val2;
+        alert(val1 + "*" + val2 + " " + "=" + " " + mul);
+        
+    }
+    else if  (operator === "/") {
+       var div = val1 / val2;
+        alert(val1 + "/" + val2 + " " + "=" + " " + div);
+    
+    }
+    else if (operator === "%") {
+      var mod = val1 % val2 ; 
+      alert(val1 + "%" + val2 + " " + "=" + " " + mod);
+    
+    }
+
+
+     else {
+         alert("Incorrect operator");
+     }
+
+        </script>
+    </body>
+</html>

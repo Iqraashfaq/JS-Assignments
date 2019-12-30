@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>JS Chapters 18-20 </title>
+    </head>
+    <body>
+        <script>
+        var courses = [];
+        var countCourses = ["First","Second","Third","Fourth","Fifth"]
+
+        for (let i = 0; i < 5; i++) {
+            courses.push(prompt(countCourses[i]+" Course"));
+        }
+        alert(courses);
+
+        for (let i = 0; i < courses.length; i++) {
+            courses[i] = prompt(countCourses[i]+" Course",courses[i]);
+            courses.splice(i,1,courses[i]);
+        }
+        alert(courses)
+    
+        </script>
+    </body>
+</html>
